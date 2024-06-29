@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/MaracaraCarlos/Frontend-Mentor-Social-Link-Profile/assets/113530553/5a034ee2-617d-4b27-9907-97cb32444fe4)
 
 ### Link
 
 - Solution URL: [solution](https://github.com/MaracaraCarlos/Frontend-Mentor-Social-Link-Profile)
-- Live Site URL: [page](https://your-live-site-url.com)
+- Live Site URL: [page](https://maracaracarlos.github.io/Frontend-Mentor-Social-Link-Profile/)
 
 ## My process
 
