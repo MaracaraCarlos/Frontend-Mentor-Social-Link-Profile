@@ -10,38 +10,93 @@
   font-family: 'Inter', sans-serif;
   font-size: .875rem;
 }
+body {
+  min-height: 100vh;
+  background-color: var(--Off-Black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Dark-Grey);
+  color: var(--White);
+  align-items: center; /* maybe */
+  padding: 20px;
+  border-radius: 15px;
+}
 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 100vmax;
   animation: desdeArriba;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
 }
-#btn1 {
+.info {
+  text-align: center;
+  margin-top: 24px;
+}
+.info h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.city {
+  color: var(--Green);
+  font-weight: 600;
+  padding-top: 8px;
+}
+.profesion {
+  padding-top: 24px;
+}
+.section_btns {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  width: 100%;
+}
+.btn {
+  background-color: var(--Grey);
+  width: 100%;
+  padding-block: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.btn:hover {
+  color: var(--Off-Black);
+  background-color: var(--Green);
+  transition: .25s ease;
+}
+.btn1 {
   animation: fromLeft;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
 }
-#btn2 {
+.btn2 {
   animation: fromLeft;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-delay: .3s;
   animation-fill-mode: both;
 }
-#btn3 {
+.btn3 {
   animation: fromLeft;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-delay: .6s;
   animation-fill-mode: both;
 }
-#btn4 {
+.btn4 {
   animation: fromLeft;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-delay: .9s;
   animation-fill-mode: both;
 }
-#btn5 {
+.btn5 {
   animation: fromLeft;
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
