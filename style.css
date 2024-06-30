@@ -10,3 +10,71 @@
   font-family: 'Inter', sans-serif;
   font-size: .875rem;
 }
+img {
+  animation: desdeArriba;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+#btn1 {
+  animation: fromLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+#btn2 {
+  animation: fromLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: .3s;
+  animation-fill-mode: both;
+}
+#btn3 {
+  animation: fromLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: .6s;
+  animation-fill-mode: both;
+}
+#btn4 {
+  animation: fromLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: .9s;
+  animation-fill-mode: both;
+}
+#btn5 {
+  animation: fromLeft;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+}
+@keyframes desdeArriba {
+  from {
+    transform: translateY(-100px);
+    opacity: .1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fromLeft {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fromRight {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
